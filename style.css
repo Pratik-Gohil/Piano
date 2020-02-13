@@ -60,7 +60,7 @@ span {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   .container {
     width: 100vw;
     height: 100vh;
