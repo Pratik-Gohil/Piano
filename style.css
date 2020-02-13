@@ -60,9 +60,15 @@ span {
   }
 }
 
-@media (max-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  .container {
+@media (min-width: 320px) {
+  .set {
     width: 100vw;
+    height: 90vh;
+  }
+  .white {
     height: 100vh;
+  }
+  .black {
+    height: 40vh;
   }
 }
